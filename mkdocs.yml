@@ -1,0 +1,39 @@
+site_name: DevOps 小學堂
+site_dir: site
+site_url: https://huanlin.github.io/devops-notes/
+repo_name: devops-notes
+repo_url: https://github.com/huanlin/devops-notes/
+
+nav:
+  - Kubernetes 概觀: k8s-overview/k8s-overview.md
+  - 在 Windows 11 運行 Docker 與 Kubernetes: k8s-on-windows11/k8s-on-windows11.md
+  - Nexus 概觀: nexus-overview/nexus-overview.md
+
+theme: 
+  name: material
+  fetures:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+  font: "Noto Sans TC"
+palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: 關燈
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: 開燈
+extra_css:
+  - stylesheets/extra.css
+  
+markdown_extensions:
+  - admonition
+  - attr_list
+
+plugins:
+  - search
+  - git-revision-date-localized
