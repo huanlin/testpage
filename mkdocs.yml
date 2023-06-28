@@ -1,8 +1,8 @@
 site_name: DevOps 小學堂
 site_dir: site
-site_url: https://huanlin.github.io/devops-notes/
-repo_name: devops-notes
-repo_url: https://github.com/huanlin/devops-notes/
+site_url: https://huanlin.github.io/testpage/
+repo_name: testpage
+repo_url: https://github.com/huanlin/testpage/
 
 nav:
   - Kubernetes 概觀: k8s-overview/k8s-overview.md
